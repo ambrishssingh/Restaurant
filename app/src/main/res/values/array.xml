@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tabletype">
+        <item>Table Type</item>
+        <item>Small(2 Person)</item>
+        <item>Small(4 Person)</item>
+        <item>big(6 Person)</item>
+        <item>big(8 Person)</item>
+        <!-- Add more items as needed -->
+    </string-array>
+
+    <string-array name="place">
+        <item>Place</item>
+        <item>Outdoor</item>
+        <item>Indoor</item>
+        <item>Rooftop</item>
+        <!-- Add more items as needed -->
+    </string-array>
+
+    <string-array name="numbergeust">
+        <item>Number Geust</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <!-- Add more items as needed -->
+    </string-array>
+</resources>

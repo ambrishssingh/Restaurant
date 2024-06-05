@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Table Header -->
+    <TableRow>
+        <TextView
+            android:id="@+id/header_name"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/header_place"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Dishes"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/header_amount"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <!-- Add other header TextViews -->
+    </TableRow>
+</TableLayout>

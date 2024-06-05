@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Table Header -->
+    <TableRow>
+        <TextView
+            android:id="@+id/header_name"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/header_email"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/header_number"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Mobile Number"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/header_date"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/header_time"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/header_ngeust"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Number Geust"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/header_place"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Place"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/header_amount"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <!-- Add other header TextViews -->
+    </TableRow>
+
+    <!-- Table Rows --><!-- Add more rows as needed -->
+</TableLayout>
